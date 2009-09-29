@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+*{margin:0px; padding:0px;}
+body{
+	background-color:#2a2948; 
+	text-align:center;}
+
+/*header structure*/
+#headerwrap{
+	background-image:url(images/vraptorSprites.png);
+	background-position:left top;
+	background-repeat:repeat-x;
+	display:block; 
+	width:100%;
+	height:100px;
+	position:relative;}
+	
+	#headerContent{
+		width:918px;
+		display:block;
+		height:auto;
+		position:relative;
+		margin:0px auto;}
+		
+		#logoVraptor {
+			display:block;
+			width:305px;
+			height:100px;
+			background-image:url(images/vraptorSprites.png);
+			background-repeat:no-repeat;
+			background-position:-33px 0px;
+			position:absolute;
+			left:0px;
+			top:0px;}
+			
+			#logoVraptor span {display:none;}
