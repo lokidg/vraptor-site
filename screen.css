@@ -1,15 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
-*{margin:0px; padding:0px;}
+*{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif;}
 body{
 	background-color:#2a2948; 
 	text-align:center;}
 
 /*header structure*/
-#headerwrap{
-	background-image:url(images/vraptorSprites.png);
+#headerWrap{
+	background-image:url(images/bgHeader.png);
 	background-position:left top;
-	background-repeat:repeat-x;
+	background-repeat:repeat;
+	background-color:#0CF;
 	display:block; 
 	width:100%;
 	height:100px;
@@ -18,19 +19,131 @@ body{
 	#headerContent{
 		width:918px;
 		display:block;
-		height:auto;
+		height:100%;
 		position:relative;
 		margin:0px auto;}
 		
 		#logoVraptor {
 			display:block;
-			width:305px;
-			height:100px;
-			background-image:url(images/vraptorSprites.png);
+			width:302px;
+			height:92px;
+			background-image:url(images/vraptorSprites-trans.png);
+			background-position:-567px -512px;
 			background-repeat:no-repeat;
-			background-position:-33px 0px;
 			position:absolute;
 			left:0px;
 			top:0px;}
 			
 			#logoVraptor span {display:none;}
+
+/*menus like langbar and menuelements menu.css*/
+
+/*content css*/
+
+#contentWrap{
+	display:block;
+	width:100%;
+	height:auto;
+	position:relative;
+	overflow:auto;
+	background-color:#FFF;
+	background-image:url(images/bgHeader.png);
+	background-position:0px -461px;
+	background-repeat:repeat-x;}
+	
+
+	#contentHome{ width:918px;	margin:0px auto;	display:block;	height:auto;	text-align:left;}
+		
+		#contentHome h2{ color:#2a2948;	font-size:42px;	display:block;	text-transform:uppercase;	margin-top:40px; font-weight:bold;}		
+		#contentHome h3{ color:#747488;	font-size:18px;	display:block;	text-transform:uppercase; font-weight:normal;}	
+	
+	#contentDocumentacao{ width:100%; margin:0px auto; display:block; height:auto; text-align:left;}
+		#contentDocumentacao h2{ color:#2a2948;	font-size:42px;	display:block;	text-transform:uppercase;	margin-top:40px; margin-left:20px; font-weight:bold;}		
+		#contentDocumentacao h3{ color:#747488;	font-size:18px;	display:block;	text-transform:uppercase; font-weight:normal; margin-left:20px; margin-bottom:40px;}
+		
+		#textoCapitulo{width:auto; margin-right:10px; margin-left:360px; display:block; text-align:justify; margin-bottom:40px;}
+			#textoCapitulo h2 {font-size:30px; font-weight:bold; margin:0px 0px 10px 0px; padding:0px;}
+			#textoCapitulo h3 {font-size:18px; font-weight:bold; margin:10px 0px 0px 0px; padding:0px; color:#150D6A;}
+			#textoCapitulo p {font-size:12px; font-weight:normal;}
+			#textoCapitulo pre {font-size:11px; color:#625696; font-family:"Courier New", Courier, monospace; margin-bottom:10px;}
+				
+/*footer css*/
+#footerWrap{
+	display:block; 
+	width:100%;
+	position:relative;}
+	
+	#footerContent{
+		width:918px;
+		display:block;
+		height:100%;
+		position:relative;
+		margin:10px auto;
+		overflow:hidden;
+		position:relative;}
+		
+		#footerContent div#suporteFooter, #footerContent div#consultoriaFooter, #footerContent div#treinamentoFooter{
+			width:280px; 
+			display:block; 
+			float:left; 
+			text-align:justify;
+			padding:10px 12px 20px 12px;}
+			
+			div#consultoriaFooter {
+				margin:0px;/*espacamento entre as colunas*/
+				border-left:solid 1px #FFF;
+				border-right:solid 1px #fff;
+			}
+			
+		#footerContent div#suporteFooter h3, #footerContent div#consultoriaFooter h3, #footerContent div#treinamentoFooter h3{
+			color:#fffc01;
+			font-size:18px;
+			font-weight:normal;
+			padding-bottom:15px;
+			padding-left:25px;
+			background-image:url(images/vraptorSprites-trans.png);
+			background-repeat:no-repeat;
+			background-position:-1085px -68px;}
+
+		#footerContent div#suporteFooter p, #footerContent div#consultoriaFooter p, #footerContent div#treinamentoFooter p{
+			color:#f0f0f0;
+			font-size:12px;
+			font-weight:normal;
+			padding-left:25px;
+			padding-right:20px;}
+			
+			div#footerContent a.moreIcon{
+				background-image:url(images/vraptorSprites-trans.png);
+				background-repeat:no-repeat;
+				background-position: -958px 0px;
+				height:26px;
+				width:18px;
+				display:block;
+				float:right;}
+				
+				div#footerContent a.moreIcon:hover{background-position:-977px 0px;}
+				
+				a.moreIcon span {display:none;}
+
+		#footerContent div.footbar{
+			width:918px;
+			height:100px;
+			display:block; 
+			position:relative;
+			overflow:hidden;
+			float:left;
+			color:#CCC;
+			text-transform:uppercase;
+			text-align:left;
+			padding-top:5px;
+			margin-top:10px;
+			border-top:solid 1px #576296;}
+			
+			div.footbar img.logoFooter{float:right;}
+			div.footbar a:hover{color:#FF0; text-decoration:underline;}			
+			div.footbar ul {display:block; float:left; margin:5px 0px 5px 20px;}
+			div.footbar ul li{ display:block; float:left; text-decoration:none; font-size:10px; font-weight:bold; margin:0px 2px 0px 0px;}
+			div.footbar ul li a{color:#FFF; text-decoration:none; font-weight:normal;}
+			div.footbar p{font-size:11px; padding:5px 20px; display:block; color:#576296; float:left; width:685px; border-top:solid 1px #576296;}
+			div.footbar p a{color:#aaafc6; text-decoration:none;}
+
