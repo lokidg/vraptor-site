@@ -192,10 +192,12 @@ body{
 			width:48px;
 			float:right;
 			margin-top:20px;
-			margin-right:20px;}
+			margin-right:15px;}
 			#contentDownload a.downloadBtn3 span {display:none;}			
 			#contentDownload a.downloadBtn3:hover {background-position:-590px -66px;}		
 		
+		
+		/*Como tags para 3 passos */
 		#contentDownload #passo1, #contentDownload #passo2, #contentDownload #passo3{
 			background-image:url(images/vraptorSprites-trans.png);
 			background-repeat:no-repeat;	
@@ -207,51 +209,31 @@ body{
 		#contentDownload #passo1 p, #contentDownload #passo2 p, #contentDownload #passo3 p{
 			background-image:url(images/vraptorSprites-trans.png);
 			background-repeat:no-repeat;
-			float:left;
-			display:block;}
-		
-		#contentDownload #passo1{
-			background-position:0px -120px;
-			margin-left:20px;
-			margin-bottom:20px;}
+			display:block;
+			float:left;}
 			
-			#contentDownload #passo1 p {
-				background-position:-1011px -75px;
-				width:auto;
-				margin:15px 0px 0px 10px;}
-				
-				#contentDownload #passo1 p a{
-					display:block;
-					padding:25px 0px 25px 60px;
-					text-decoration:none;
-					font-size:11px;
-					color:#003;
-					text-transform:uppercase;
-					font-weight:bold;}
-					
-					#contentDownload #passo1 p a:hover{color:#333399;}
-					
-		#contentDownload #passo2{
-				background-position:0px -211px;
-				margin-left:20px;
-				margin-bottom:20px;}
-				
-				#contentDownload #passo2 p {
-					background-position:-1023px 0px;
-					width:490px;
-					margin:13px 0px 0px 10px;}
+		#contentDownload #passo1 p a, #contentDownload #passo2 p a, #contentDownload #passo3 p a{
+			text-transform:uppercase;
+			text-decoration:none;
+			font-weight:bold;
+			font-size:11px;			
+			display:block;
+			color:#003;}	
+			
+			#contentDownload #passo1 p a:hover, #contentDownload #passo2 p a:hover, #contentDownload #passo3 p a:hover{color:#333399;}
 		
-					#contentDownload #passo2 p a{
-						display:block;
-						padding:20px 0px 20px 60px;
-						border:solid red 1px;
-						text-decoration:none;
-						font-size:11px;
-						color:#003;
-						text-transform:uppercase;
-						font-weight:bold;}
-						
-						#contentDownload #passo2 p a:hover{color:#333399;}
+		/*tags específicas para cada tag passo*/
+		#contentDownload #passo1{ background-position:0px -120px; margin-left:20px; margin-bottom:20px;}
+			#contentDownload #passo1 p { background-position:-1011px -75px;	width:auto;	margin:15px 0px 0px 10px;}
+				#contentDownload #passo1 p a{padding:25px 0px 25px 60px;}
+					
+		#contentDownload #passo2{ background-position:0px -211px; margin-left:20px;	margin-bottom:20px;}
+			#contentDownload #passo2 p { background-position:-1015px 0px; width:490px; margin:13px 0px 0px 10px;}	
+				#contentDownload #passo2 p a{padding:20px 0px 20px 60px;}
+				
+		#contentDownload #passo3{ background-position:0px -302px; margin-left:20px;	margin-bottom:20px;}
+			#contentDownload #passo3 p { background-position:-1015px -151px; width:490px; margin:13px 0px 0px 10px;}	
+				#contentDownload #passo3 p a{padding:20px 0px 20px 60px;}				
 
 	/*css documentacao*/	
 	#contentDocumentacao{ width:100%; margin:0px auto; display:block; height:auto; text-align:left;}
