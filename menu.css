@@ -19,24 +19,24 @@
 			#engBtn{
 				background-image:url(images/vraptorSprites-trans.png);
 				background-repeat:no-repeat;
-				background-position:-877px -553px;
+				background-position:-317px 0px;
 				position:absolute;
 				top:0;
 				width:96px;
 				left:0px;} 
 				
-				a#engBtn:hover{background-position:-877px -503px;}
+				a#engBtn:hover{background-position:-317px -50px;}
 			
 			#ptBtn{
 				background-image:url(images/vraptorSprites-trans.png);
 				background-repeat:no-repeat;
-				background-position:-972px -553px;
+				background-position:-414px 0px;
 				position:absolute;
 				top:0;				
-				width:125px;
+				width:127px;
 				right:0px;}
 				
-				a#ptBtn:hover{background-position:-972px -503px;}
+				a#ptBtn:hover{background-position:-414px -50px;}
 
 #menuWrap {
 	display:block;
@@ -66,27 +66,27 @@
 			
 			#homeBtn, #downloadBtn, #documentacaoBtn, #beneficiosBtn, #suporteBtn, #vraptor2Btn {
 				background-image:url(images/vraptorSprites-trans.png);
-				background-repeat:no-repeat;
-				}
+				background-repeat:no-repeat;}
+				
 			#homeBtn span, #downloadBtn span, #documentacaoBtn span, #beneficiosBtn span, #suporteBtn span, #vraptor2Btn span {display:none;}
 			
-        	#homeBtn{ background-position:-271px -650px; left:0px;	width:90px;}
-				#homeBtn:hover{background-position:-271px -709px;}
+        	#homeBtn{ background-position:-239px -570px; left:0px;	width:90px;}
+				#homeBtn:hover{background-position:-239px -629px;}
 				
-			#downloadBtn{background-position:-361px -650px;	left:90px;	width:144px;}
-				#downloadBtn:hover{background-position:-361px -709px;}
+			#downloadBtn{background-position:-329px -570px;	left:90px;	width:144px;}
+				#downloadBtn:hover{background-position:-329px -629px;}
 				
-			#documentacaoBtn{background-position:-505px -650px;	left:234px;	width:187px;}
-				#documentacaoBtn:hover{background-position:-505px -709px;}
+			#documentacaoBtn{background-position:-473px -570px;	left:234px;	width:187px;}
+				#documentacaoBtn:hover{background-position:-473px -629px;}
 				
-			#beneficiosBtn{background-position:-692px -650px;	left:421px;	width:165px;}
-				#beneficiosBtn:hover{background-position:-692px -709px;}
+			#beneficiosBtn{background-position:-660px -570px;	left:421px;	width:165px;}
+				#beneficiosBtn:hover{background-position:-660px -629px;}
 				
-			#suporteBtn{background-position:-857px -650px;	left:586px;	width:126px;}
-				#suporteBtn:hover{background-position:-857px -709px;}
+			#suporteBtn{background-position:-825px -570px;	left:586px;	width:126px;}
+				#suporteBtn:hover{background-position:-825px -629px;}
 				
-			#vraptor2Btn{background-position:-983px -650px;	left:712px;	width:126px;}
-				#vraptor2Btn:hover{background-position:-983px -709px;}
+			#vraptor2Btn{background-position:-951px -570px;	left:712px;	width:126px;}
+				#vraptor2Btn:hover{background-position:-951px -629px;}
 
 #subMenuDoc{
 	position:fixed;
@@ -98,7 +98,7 @@
 	#positionTop{display:block; position:absolute; left:0px; top:0px;}
 	#positionBottom{display:block; position:absolute; left:0px; bottom:0px;}
 	
-	#subMenuDoc ol{background-image:url(images/bgSubMenu.png); width:100%; height:100%; margin:10px 0px 18px 0px;}
+	#subMenuDoc ol{background-image:url(images/bgSubMenu-trans.png); width:100%; height:100%; margin:10px 0px 18px 0px;}
 	
 	#subMenuDoc ol li {padding:10px 0px; border-bottom:1px solid #575757; font-size:14px;}
 	
