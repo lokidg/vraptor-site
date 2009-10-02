@@ -81,12 +81,12 @@ body{
 			#banner #floatBoxBanner p a {color:#FFF;}
 			#banner #floatBoxBanner p a:hover{color:#FF0;}
 		
-		#banner #floatBoxBanner ul {color:#FFF; font-size:16px; list-style-type:none; width:500px;}
+		#banner #floatBoxBanner ul {color:#FFF; font-size:16px; list-style-type:none; width:450px;}
 		 #banner #floatBoxBanner ul li {
 			padding:4px 0px 4px 25px;
 			background-image:url(images/vraptorSprites-trans.png);
 			background-repeat:no-repeat;
-			background-position:-1054px -478px;}
+			background-position:-569px -443px;}
 			
 		 #banner #floatBoxBanner #openSourceIcon {
 			position:absolute; 
@@ -276,7 +276,25 @@ body{
 			.depoimentoClientes em{display:block; float:left; width:15%; font-weight:bold; font-size:11px;}
 			.depoimentoClientes em a{color:#1a1679; text-decoration:none;}
 			.depoimentoClientes em a:hover{text-decoration:underline;}
-			.depoimentoClientes p{float:right; width:80%; display:block; font-size:12px; text-align:justify;}
+			.depoimentoClientes p{float:right; width:80%; display:block; font-size:12px; text-align:justify; font-family:Georgia, "Times New Roman", Times, serif;}
+		
+	/*Vraptro 2*/	
+	#contentVraptor2{ width:918px;	margin:0px auto; display:block;	height:auto; text-align:left; position:relative;}
+		#contentVraptor2 h2{ color:#2a2948;	font-size:42px;	display:block;	text-transform:uppercase;	margin-top:40px; margin-left:20px; font-weight:bold;}		
+		#contentVraptor2 h3{ color:#747488;	font-size:18px;	display:block;	text-transform:uppercase; font-weight:normal; margin-left:20px; margin-bottom:40px;}
+		
+		#contentVraptor2 dl{display:block; margin-left:20px; margin-bottom:20px;}
+		#contentVraptor2 dl dt {
+			font-size:14px; 
+			font-weight:bold; 
+			margin-top:20px; 
+			text-transform:uppercase;
+			padding-left:18px;
+			background-image:url(images/vraptorSprites-trans.png);
+			background-repeat:no-repeat;
+			background-position:-989px -528px;}
+		#contentVraptor2 dl dd a {padding-left:18px; text-decoration:none; color:#625696; font-weight:bold;}
+		#contentVraptor2 dl dd a:hover{color:#C60; font-weight:bold;}
 		
 	
 /*footer css*/
@@ -315,7 +333,7 @@ body{
 			padding-left:25px;
 			background-image:url(images/vraptorSprites-trans.png);
 			background-repeat:no-repeat;
-			background-position:-1054px -481px;}
+			background-position:-569px -445px;}
 
 		#footerContent div#suporteFooter p, #footerContent div#consultoriaFooter p, #footerContent div#treinamentoFooter p{
 			color:#f0f0f0;
