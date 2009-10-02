@@ -420,3 +420,5 @@ body{
 			div.footbar p{font-size:11px; padding:5px 20px; display:block; color:#576296; float:left; width:685px; border-top:solid 1px #576296;}
 			div.footbar p a{color:#aaafc6; text-decoration:none;}
 
+#signature { background-image:url(images/ldl-trans.png); background-repeat:no-repeat; background-position:left top; position:absolute; display:block; bottom:0px; left:10px; font-family:Georgia, "Times New Roman", Times, serif; font-size:10px; color:#FFF; padding:5px 0px 15px 30px; text-decoration:none;}
+a#signature:hover{color:#C90;}
