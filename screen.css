@@ -277,7 +277,50 @@ body{
 			.depoimentoClientes em a{color:#1a1679; text-decoration:none;}
 			.depoimentoClientes em a:hover{text-decoration:underline;}
 			.depoimentoClientes p{float:right; width:80%; display:block; font-size:12px; text-align:justify; font-family:Georgia, "Times New Roman", Times, serif;}
-		
+	
+	/*suporte css*/
+		#contentSuporte{ width:918px;	margin:0px auto; display:block;	height:auto; text-align:left; position:relative;}
+		#contentSuporte h2{ color:#2a2948;	font-size:42px;	display:block;	text-transform:uppercase;	margin-top:40px; margin-left:20px; font-weight:bold;}		
+		#contentSuporte h3{ color:#747488;	font-size:18px;	display:block;	text-transform:uppercase; font-weight:normal; margin-left:20px; margin-bottom:40px;}
+			#contentSuporte .suporteBox{
+				width:292px; 
+				display:block; 
+				float:left; 
+				text-align:left;
+				margin-bottom:40px;
+				margin-left:10px;}
+				
+				#contentSuporte .suporteBox h4 {
+					display:block;
+					background-image:url(images/vraptorSprites-trans.png);
+					background-repeat:no-repeat;
+					background-position:-240px -403px;
+					width:292px;
+					height:91px;
+					position:relative;
+				}
+				
+				#contentSuporte .suporteBox ul li {list-style-type:none; border-bottom:solid 1px #666; display:block; padding:10px 0px;}
+				#contentSuporte .suporteBox ul li a{text-decoration:none; display:block;}
+				#contentSuporte .suporteBox ul li a:hover{text-decoration:underline; color:#F90;}
+				#contentSuporte .suporteBox ul li a em{font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-style:normal; font-size:14px; color:#152063; text-transform:uppercase;}
+				#contentSuporte .suporteBox ul li a span{font-size:12px; color:#747488;}
+				#contentSuporte .suporteBox ul li a span img {float:left; border:none; margin-right:10px;}
+				
+				#suporteGrayBox span, #treinamentoGrayBox span, #consultoriaGrayBox span{
+					background-repeat:no-repeat;
+					display:block;
+					padding:35px 10px 10px 10px;
+					font-size:18px;
+					color:#152063;
+					text-transform:uppercase;
+					text-align:left;}
+				
+				#suporteGrayBox span {background-image:url(images/suportForum-trans.png); background-position:220px 25px;}
+				#consultoriaGrayBox span{background-image:url(images/suportConsultoria-trans.png); background-position:230px 25px;}
+				#treinamentoGrayBox span{background-image:url(images/suportTreinamento-trans.png); background-position:235px 25px;}
+					
+	
 	/*Vraptro 2*/	
 	#contentVraptor2{ width:918px;	margin:0px auto; display:block;	height:auto; text-align:left; position:relative;}
 		#contentVraptor2 h2{ color:#2a2948;	font-size:42px;	display:block;	text-transform:uppercase;	margin-top:40px; margin-left:20px; font-weight:bold;}		
